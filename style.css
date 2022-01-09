@@ -6,8 +6,48 @@
     font-family: 'Monserrat', sans-serif;
 }
 
+body{
+    margin: 0;
+    background-color: #202731;
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+/*Imported SVG Code*/
+.custom-shape-divider-top-1641740619 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1641740619 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 188px;
+}
+
+.custom-shape-divider-top-1641740619 .shape-fill {
+    fill: #FFFFFF;
+}
+/*Imported SVG Code*/
+
 a{
     color: white;
+}
+
+.white{
+    background-color: white;
 }
 
 .header-container{
@@ -39,5 +79,9 @@ ul{
 
 .right-links{
     display: flex;
+}
+
+.sign-in{
+   color:black;
 }
 
