@@ -17,30 +17,7 @@ section{
     flex-direction: column;
     align-items: center;
     min-height: 400px;
-    padding: 100px 20vw;
 }
-
-/*Imported SVG Code*/
-.custom-shape-divider-top-1641740619 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1641740619 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 188px;
-}
-
-.custom-shape-divider-top-1641740619 .shape-fill {
-    fill: #FFFFFF;
-}
-/*Imported SVG Code*/
 
 a{
     color: white;
@@ -81,7 +58,42 @@ ul{
     display: flex;
 }
 
-.sign-in{
-   color:black;
+.information{
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+    width: 100%;
 }
 
+img{
+    height: 80%;
+    width: 100%;
+}
+.large-text{
+    font-size: 24px;
+}
+
+.section-2{
+    display: flex;
+    padding: 5px;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
+
+span{
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgb(255, 48, 8);
+}
+
+div.middle{
+    font-size: 24px;
+    flex-basis: 50%;
+}
