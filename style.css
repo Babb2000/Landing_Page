@@ -131,3 +131,20 @@ div.middle{
     font-size: 24px;
     flex-basis: 50%;
 }
+
+.center{
+    text-align: center;
+}
+
+.login{
+    text-align: center;
+}
+
+.loginbox{
+    border: #202731;
+    border-style: dashed;
+}
+
+iframe{
+    margin: 10px;
+}
